@@ -14,7 +14,21 @@ The `ESTETIKA-API` branch is dedicated to handling server-side logic, managing d
 
 To use the ESTETIKA API locally, follow these steps:
 
-1. Create a virtual environment (optional but recommended):
+1. Make sure you have Python installed. If not, download and install it from [https://www.python.org/](https://www.python.org/).
+
+2. Clone the repository:
+
+   ```bash
+   git clone -b ESTETIKA-API https://github.com/ESTETIKA-2023/ESTETIKA-CC.git
+   ```
+
+3. Navigate to the ESTETIKA-CC directory:
+
+   ```bash
+   cd ESTETIKA-CC
+   ```
+
+4. Create a virtual environment (optional but recommended):
 
     ```bash
     python -m venv .venv
@@ -25,16 +39,16 @@ To use the ESTETIKA API locally, follow these steps:
     - On Windows:
 
         ```bash
-        .\venv\Scripts\activate
+        .venv\scripts\activate
         ```
 
     - On Unix or MacOS:
 
         ```bash
-        source venv/bin/activate
+        source .venv/bin/activate
         ```
 
-2. Install the required dependencies:
+5. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
@@ -42,9 +56,9 @@ To use the ESTETIKA API locally, follow these steps:
 
     This command will install all the necessary packages for the ESTETIKA API.
 
-3. There is a use of an environment file in this project, if you want to try it, you can contact us directly.
+6. There is a use of an environment file in this project, if you want to try it, you can contact us directly.
 
-4. Run the API using `uvicorn`:
+7. Run the API using `uvicorn`:
 
     ```bash
     uvicorn app.main:app --reload
@@ -52,7 +66,7 @@ To use the ESTETIKA API locally, follow these steps:
 
     This command assumes that the main application is located in a file named `main.py` within a directory named `app`. Adjust the command if your file or directory structure is different.
 
-5. Open your web browser and navigate to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to access the API documentation using Swagger UI. Here, you can explore and interact with the available API endpoints.
+8. Open your web browser and navigate to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to access the API documentation using Swagger UI. Here, you can explore and interact with the available API endpoints.
 
 ## Contact Us
 
