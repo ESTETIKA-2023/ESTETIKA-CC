@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ESTETIKA-2023/.github/main/profile/src/estetika-header-image.png" width="100%" height="auto" alt="ESTETIKA Header">
+</p>
+
 # ESTETIKA-API
 
 Welcome to the `ESTETIKA-API` branch! This branch focuses on the development of the ESTETIKA platform's backend API using Python with the FAST API framework.
