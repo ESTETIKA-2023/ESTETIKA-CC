@@ -3,7 +3,7 @@ import SectionTitle from './SectionTitle'
 
 const PAS = () => {
     return (
-        <>
+        <div className='px-2 sm:px-0 2xl:px-[90px]'>
             <SectionTitle
                 pretitle="Problem and Solution"
                 title="Why do we have to discuss Indonesian batik">
@@ -39,12 +39,12 @@ const PAS = () => {
                             </p>
                         </div>
 
-                        <img src="/getting-started/arrow.png" alt="" className="hidden lg:inline-block absolute top-32 left-64 xl:left-[22rem] w-24 xl:w-[9.5rem]" />
-                        <img src="/getting-started/arrow.png" alt="" className="hidden lg:inline-block absolute top-32 right-64 xl:right-[22rem] w-24 xl:w-[9.5rem]" />
+                        <img src="/getting-started/arrow.png" alt="" className="arrow hidden absolute top-32 left-64 xl:left-[22rem] w-24 xl:w-[9.5rem]" />
+                        <img src="/getting-started/arrow.png" alt="" className="arrow hidden absolute top-32 right-64 xl:right-[22rem] w-24 xl:w-[9.5rem]" />
                     </div>
                 </div>
             </section>
-        </>
+        </div>
     )
 }
 

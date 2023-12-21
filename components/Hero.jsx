@@ -20,7 +20,7 @@ const Hero = () => {
                             Embark on a journey of cultural exploration with ESTETIKA, an immersive platform dedicated to the rich heritage of Indonesian Batik.
                         </p>
                         <div className="mt-4" data-aos="fade-right" data-aos-delay="300">
-                            <Link href='/'>
+                            <Link href='https://storage.googleapis.com/estetika-capstone-android-app-bucket/ESTETIKA.apk' target="_blank">
                                 <Button className="bg-[#38549c] gap-x-2 text-sm md:text-base lg:text-lg xl:text-xl dark:text-white">
                                     Explore Our App <Download className="mt-[6px]" size={22} />
                                 </Button>

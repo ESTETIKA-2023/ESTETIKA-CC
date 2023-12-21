@@ -43,15 +43,15 @@ const FeaturesContent = () => {
                     className="flex flex-col rounded-lg hover:shadow-2xl dark:hover:shadow-[0_35px_60px_-15px_rgba(255,255,255,0.3)] hover:mt-[-10px] bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700 sm:max-w-xl sm:flex-row mb-10 lg:mb-0" data-aos="fade-right">
                     <img
                         className="h-auto w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                        src="/features/tourist-attraction.png"
+                        src="/features/tourist-experience.png"
                         alt="" />
                     <div className="flex flex-col justify-center p-6">
                         <h5
                             className="mb-2 text-center sm:text-start text-xl font-medium text-neutral-800 dark:text-neutral-50">
-                            Batik Tourist Attractions
+                            Batik Tourist Experience
                         </h5>
                         <p className="mb-4 text-base text-center sm:text-left text-neutral-600 dark:text-neutral-200">
-                            This feature can help you to find out the tourist attractions of Indonesian Batik, allowing you to explore the rich cultural heritage, craftsmanship, and the stories behind each unique batik creation.
+                            This feature can help you to find out the tourist experience of Indonesian Batik, allowing you to explore the rich cultural heritage, craftsmanship, and the stories behind each unique batik creation.
                         </p>
                     </div>
                 </div>

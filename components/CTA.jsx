@@ -16,7 +16,7 @@ const CTA = () => {
                 </div>
                 <div className="flex-shrink-0 w-full text-center lg:w-auto">
                     <a
-                        href="https://github.com/web3templates"
+                        href="https://storage.googleapis.com/estetika-capstone-android-app-bucket/ESTETIKA.apk"
                         target="_blank"
                         rel="noopener"
                         className="py-3 mx-auto text-lg font-medium text-center text-[#38549c] bg-white rounded-md px-7 lg:px-10 lg:py-5 flex items-center justify-center hover:bg-opacity-90 hover:text-[#293e74] dark:hover:bg-white dark:hover:text-[#293e74] dark:hover:bg-opacity-90">
