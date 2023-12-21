@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ESTETIKA-2023/.github/main/profile/src/estetika-header-image.png" width="100%" height="auto" alt="ESTETIKA Header">
+</p>
+
 # ESTETIKA-LANDING-PAGE
 
 Welcome to the `ESTETIKA-LANDING-PAGE` branch! This branch focuses on the development of the ESTETIKA platform's landing page using React.JS, specifically Next.JS.
